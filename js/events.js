@@ -33,6 +33,8 @@ function pressIt() {
 $(document).ready(function(){
 
 getIt();
+
+pressIt();
 // call functions here
 
 });
