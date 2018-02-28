@@ -30,11 +30,11 @@ function pressIt() {
 }
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 getIt();
 
-pressIt();
+
 // call functions here
 
 });
