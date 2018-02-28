@@ -8,11 +8,11 @@ $('p').on("click", function() {
 }
 
 function frameIt() {
-  const img = $('img.tasty')
+  
   $('img').on("load", function() {
 
 
-
+const img = $('img.tasty')
   });
 }
 
