@@ -20,7 +20,7 @@ function pressIt() {
 
   $("form").on('keydown', function() {
 
-    if (key.which === ) {
+    if (key.which == 71) {
       alert('G was pressed')
       return;
     }
