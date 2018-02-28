@@ -9,10 +9,6 @@ $('p').on("click", function getIt() {
 
 $(document).ready(function(){
 
-getIt();
-
-
-
 // call functions here
 
 });
