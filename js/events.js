@@ -18,9 +18,9 @@ const img = window.$('img')
 
 function pressIt() {
 
-  $("form").on('keydown', function() {
+  $('form').on('keydown', function() {
 
-    if (key.which == 255) {
+    if (key.which == 71) {
       alert('G was pressed')
       return;
     }
