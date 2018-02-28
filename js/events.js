@@ -10,7 +10,7 @@ $('p').on("click", function() {
 function frameIt() {
 
   $('.tasty').on("load", function() {
-    
+
   });
 }
 
