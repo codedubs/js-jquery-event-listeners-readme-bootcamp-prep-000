@@ -11,8 +11,8 @@ function frameIt() {
 
   $('img').on("load", function() {
 
+    $('img').append(".tasty")
 
-const img = $('img.tasty')
   });
 }
 
