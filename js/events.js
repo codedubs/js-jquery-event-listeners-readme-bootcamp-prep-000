@@ -16,9 +16,9 @@ const img = window.$('img')
   });
 }
 
-function pressIt(key) {
+function pressIt() {
 
-  $('form').on('keydown', function() {
+  $('form').on('keydown', function(key) {
   var key = 71;
     if (key.which == 71) {
       alert('G was pressed')
