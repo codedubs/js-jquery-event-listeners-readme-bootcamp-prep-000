@@ -16,7 +16,7 @@ const img = window.$('img')
   });
 }
 
-function pressIt() {
+function pressIt(key) {
 
   $('form').on('keydown', function() {
     var key = 71;
