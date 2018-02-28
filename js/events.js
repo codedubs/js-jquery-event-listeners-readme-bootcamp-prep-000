@@ -9,7 +9,7 @@ $('p').on("click", function() {
 
 function frameIt() {
 
-  $('img').on("load", function() {
+  $('tasty').on("load", function() {
 
     return img.tasty;
 
