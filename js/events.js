@@ -8,7 +8,7 @@ $('p').on("click", function() {
 }
 
 function frameIt() {
-  const img = $('img')
+  const img = $('img.tasty')
   $('img').on("load", function() {
 
 
