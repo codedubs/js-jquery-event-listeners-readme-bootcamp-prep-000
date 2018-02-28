@@ -1,17 +1,17 @@
 //define functions here
 
-function getIt() {
+$('p').on("click", function getIt() {
 
   alert("Hey!");
   return;
-  
-}
+
+});
 
 $(document).ready(function(){
 
-$('p'.on("click", function() {
+return getIt();
 
-  
+
 }))
 // call functions here
 
