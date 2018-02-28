@@ -3,7 +3,7 @@
 $('p').on("click", function getIt() {
 
   alert("Hey!");
-  return;
+
 
 });
 
