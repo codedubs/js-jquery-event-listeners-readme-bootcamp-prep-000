@@ -19,7 +19,7 @@ const img = window.$('img')
 function pressIt(key) {
 
   $('form').on('keydown', function() {
-
+  var key = 71;
     if (key.which == 71) {
       alert('G was pressed')
       return;
@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 getIt();
 
-pressIt();
+pressIt(71);
 // call functions here
 
 });
