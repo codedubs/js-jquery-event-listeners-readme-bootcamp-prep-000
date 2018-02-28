@@ -11,7 +11,7 @@ function frameIt() {
 
   $('img').on("load", function() {
 
-    $('.tasty').append('img')
+    return img.tasty;
 
   });
 }
