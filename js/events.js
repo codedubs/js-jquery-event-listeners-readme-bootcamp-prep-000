@@ -9,7 +9,7 @@ $('p').on("click", function getIt() {
 
 $(document).ready(function(){
 
-return getIt();
+getIt();
 
 
 }))
