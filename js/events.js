@@ -16,6 +16,18 @@ const img = window.$('img')
   });
 }
 
+function pressIt() {
+
+  $("form").on('keydown', function() {
+
+    if (key.which === ) {
+      alert('G was pressed')
+      return;
+    }
+  });
+
+  
+}
 
 
 $(document).ready(function(){
